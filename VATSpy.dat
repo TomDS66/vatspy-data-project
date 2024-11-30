@@ -5161,7 +5161,7 @@ KDET|Detroit City MI|42.409194|-83.009861|DET|KZOB|0
 KDEW|Deer Park|47.967056|-117.428583|DEW|KZSE|0
 KDFI|Defiance Memorial OH|41.3375|-84.428806|DFI|KZOB|0
 KDFW|Dallas-Fort Worth Intl TX|32.89595|-97.0372|DFW|KZFW|0
-KDFW|Dallas-Fort Worth Intl TX|32.89595|-97.0372|REG|KZFW|1
+KDFW|Lone Star TRACON|32.89595|-97.0372|D10|KZFW|1
 KDGL|Douglas Muni|31.342603|-109.506454|DGL|KZAB|0
 KDGW|Douglas Converse County WY|42.79725|-105.385736|DGW|KZDV|0
 KDHN|Dothan AL|31.321339|-85.449628|DHN|KZJX|0
@@ -8197,7 +8197,7 @@ LOLH|HB Hofkirchen|48.137167|14.335833||LOVV|0
 LOLK|Ried-Kirchheim|48.208|13.341333||LOVV|0
 LOLM|Micheldorf|47.869167|14.121667||LOVV|0
 LOLO|Linz-Ost|48.299417|14.334083||LOVV|0
-LOLS|Scharding-Suben|48.402167|13.442667||LOVV|0
+LOLS|Scharding-Suben|48.4024830|13.4476445||LOVV|0
 LOLT|Seitenstetten|48.050667|14.657667||LOVV|0
 LOLU|Gmunden|47.951|13.866667||LOVV|0
 LOLW|Wels|48.16667|14.03306||LOVV|0
@@ -12838,25 +12838,75 @@ XHSO|Dolinsk (Sokol)|47.262167|142.76815||UHHH|0
 XHSR|Starorusskoye|47.1536|142.7636167||UHHH|0
 XHWE|Nikolayevka (Primorskaya)|43.08645|133.19105||UHHH|0
 XHWN|Novonezhino|43.218867|132.5872||UHHH|0
-UHMA|Anadyr (Ugolny)|64.735|177.738333||UHMM|0
-UHMD|Provideniya Bay|64.37846|-173.245124||UHMM|0
-UHMG|Chaybukha|61.852|160.547||UHMM|0 ; io
-UHMI|Mys Schmidta|68.866859|-179.375667||UHMM|0
-UHMK|Keperveyem|67.846041|166.142292||UHMM|0
-UHMM|Magadan (Sokol)|59.91|150.718333||UHMM|0
-UHMN|Omolon|65.238|160.542||UHMM|0 ; io
-UHMO|Markovo|64.666667|170.416667||UHMM|0
-UHMP|Pevek|69.782689|170.595703||UHMM|0
-UHMR|Beringovsky|63.033333|179.3||UHMM|0
-UHPA|Pakhachi|60.553|169.103||UHMM|0 ; io
-UHPD|Ossora|59.223|163.063||UHMM|0 ; io
-UHPG|Tigil|57.783|158.733||UHMMM|0 ; io
-UHPH|Khalaktyrka|53.027|158.72||UHMM|0 ; io
-UHPL|Palana|59.082|159.888||UHMM|0 ; io
-UHPM|Milkovo|54.68|158.547||UHMM|0 ; io
-UHPN|Manily|62.485|165.337||UHMM|0 ; io
-UHPP|Petropavlovsk-Kamchatskiy (Yelizovo)|53.17|158.451667||UHMM|0
-UHPU|Ust-Khayryuzovo|57.1|156.735||UHMM|0 ; io
+UHMM|Magadan(Sokol)|59.910983333333|150.72046666667||UHMM|0
+UHPP|Petropavlosk-Kamchatskiy(Yelizovo)|53.170183333333|158.45348333333||UHMM|0
+UHMA|Anadyr(Ugolny)|64.73495|177.74155||UHMM|0
+UHMP|Pevek|69.772298055556|170.60430416667||UHMM|0
+UHMD|Providenyia Bay|64.379016666667|-173.24278333333||UHMM|0
+XHSQ|Sarychevo|48.050983333333|153.25508333333||UHMM|0
+UHPT|Tilichiki|60.384999722222|166.02555583333||UHMM|0
+UHPD|Ossora|59.223610833333|163.06638888889||UHMM|0
+UHMW|Severo-Evensk|61.922221944444|159.22944388889||UHMM|0
+UHPX|Nikolskoe|55.178266666667|166.0485||UHMM|0
+HC9L|Preobrazhenskoye|54.788016666667|167.5766||UHMM|0
+UHQO|Ozernaya|51.499183333333|156.54358333333||UHMM|0
+UHGB|Yamsk|59.5819|154.15426666667||UHMM|0
+UHMT|Magadan-13|59.6223|150.92178333333||UHMM|0
+UHMV|Ust-Omchug|61.11585|149.63786666667||UHMM|0
+UHMH|Berelekh|62.765083333333|148.14718333333||UHMM|0
+UHGE|Yagodnoye|62.545666666667|149.52301666667||UHMM|0
+UHMQ|Sinegorye|62.263116666667|150.75286666667||UHMM|0
+UHGT|Takhtoyamsk|60.194183333333|154.67441666667||UHMM|0
+UHMS|Seimchan|62.919716666667|152.42195||UHMM|0
+UHMF|Omsukchan|62.4588|155.74811666667||UHMM|0
+UHMG|Chaibukha|61.835433333333|160.54861666667||UHMM|0
+UHGK|Novaya Kubaka|63.746766666667|159.92275||UHMM|0
+UHGR|Rassokha|65.3743|157.76091666667||UHMM|0
+UHMN|Omolon|65.238816666667|160.54523333333||UHMM|0
+ZC8P|Stadukhino|66.9659|166.82135||UHMM|0
+UHEI|Ilirney|67.25495|167.95073333333||UHMM|0
+UHEK|Kypol|66.9017|169.55998333333||UHMM|0
+UHMK|Keperveem|67.8473|166.13791666667||UHMM|0
+UHEJ|Aion|69.940166666667|168.00691666667||UHMM|0
+HE76|Valkarkai|70.085583333333|170.92911666667||UHMM|0
+UHMZ|Ostrov Vrangelya|70.946266666667|-179.55185||UHMM|0
+HJ0Q|Ushakovskoe|70.982516666667|178.45766666667||UHMM|0
+UHMI|Mys Shmidta|68.86905|-179.37651666667||UHMM|0
+UHMX|Iultin|67.91095|-178.67215||UHMM|0
+HK11|Uelen-2|66.164433333333|169.8509||UHMM|0
+UHML|Zaliv Lavrentiya|65.58095|-170.99915||UHMM|0
+UHAQ|Yanrakynnot|64.91255|172.50268333333||UHMM|0
+UHAS|Sireniki|64.411383333333|173.94775||UHMM|0
+UHAU|Nunligran|64.796666666667|175.3726||UHMM|0
+UHAB|Enmelen|65.013516666667|175.8632||UHMM|0
+UHME|Zaliv Kresta|66.358383333333|-179.10833333333||UHMM|0
+UHDX|Uelkal|65.511433333333|-179.3081||UHMM|0
+UHMR|Beringovsky|63.02125|179.29386666667||UHMM|0
+UHAY|Maino-Pylgino|62.5413|177.06778333333||UHMM|0
+UHAW|Vaegy|64.166716666667|171.05688333333||UHMM|0
+UHMO|Markovo|64.6654|170.411||UHMM|0
+UHAC|Chuvanskoye|65.171266666667|167.95265||UHMM|0
+UHNQ|Ayanka|63.714066666667|167.58266666667||UHMM|0
+UHQE|Slautnoe|63.178233333333|167.98166666667||UHMM|0
+ZJC0|Sredniye Pakhachi|60.816216666667|169.07616666667||UHMM|0
+UHPA|Pakhachi|60.5562|169.11143333333||UHMM|0
+UHPN|Manily|62.485766666667|165.33898333333||UHMM|0
+HCZ9|Vyvenka|60.184733333333|165.45505||UHMM|0
+UHPL|Palana|59.0821|159.8912||UHMM|0
+ZCH6|Ivashka|58.570316666667|162.30491666667||UHMM|0
+UHPK|Ust-Kamchatsk|56.238833333333|162.69008333333||UHMM|0
+XHPL|Klyuchi Kamchatskiye|56.309783333333|160.80458333333||UHMM|0
+UHPG|Tigil|57.7842|158.73006666667||UHMM|0
+UHPU|Ust-Khairyuzovo|57.100333333333|156.73745||UHMM|0
+UHPO|Kozyrevsk|56.0851|159.87296666667||UHMM|0
+UHQS|Esso|55.93805|158.71083333333||UHMM|0
+UHPM|Milkovo|54.68155|158.55058333333||UHMM|0
+HC8S|Reka Zhupanova|53.668466666667|159.89168333333||UHMM|0
+ZFP7|Rubus|54.4051|158.3406||UHMM|0
+UHPH|Khalaktyrka|53.026283333333|158.72206666667||UHMM|0
+ZF3Z|Nikolaevka|53.050866666667|158.3167||UHMM|0
+ZES9|Severnyye Koryaki|53.34985|158.17831666667||UHMM|0
+UHPS|Sobolevo|54.307216666667|155.97445||UHMM|0
 UIAA|Chita (Kadala)|52.026667|113.305||UIII|0
 UIAC|Tungokochen|53.55|115.617||UIII|0 ; io
 UIAI|Chita (Cheryomushki)|52.073477|113.432089||UIII|0
@@ -14135,7 +14185,7 @@ XLLG|Gdov (Smurovoyevo)|58.815|28.015||ULLL|0 ; io
 XLLJ|Gromovo|60.715|30.113||ULLL|0 ; io
 XLLL|Soltsy|58.145|30.3317||ULLL|0
 XLLN|Kasimovo|60.2|33.338||ULLL|0 ; io
-XLLV|Levashovo|60.087|30.188||ULLL|0 ; io
+ULLA|Levashovo|60.087|30.188||ULLL|0 ; io
 XLLY|Pribylovo|60.458|28.748||ULLL|0 ; io
 XLMA|Alakurtti|66.977|30.35||ULLL|0 ; io
 XLMD|Severomorsk-1|69.03|33.425||ULLL|0 ; io
@@ -17715,6 +17765,7 @@ ZSOF|Hefei Xinqiao|31.987384|116.976634||ZSHA|0
 ZSPD|Shanghai Pudong|31.142333|121.790844||ZSHA|0
 ZSQD|Qingdao Jiaodong|36.366526|120.098729||ZSHA|0
 ZSQZ|Quanzhou Jinjiang|24.799411|118.591113||ZSHA|0
+ZSRJ|Ganzhou Ruijin|25.96|116.08||ZSHA|0
 ZSRZ|Rizhao Shanzihe|35.404764|119.323218||ZSHA|0
 ZSSH|Huai'an Lianshui|33.777701|119.147299||ZSHA|0
 ZSSM|Sanming Shaxian|26.427323|117.834513||ZSHA|0
@@ -18006,6 +18057,7 @@ EKDK-E|Kobenhavn (East)|EKDK_I|EKDK-E
 EKDK-E|Kobenhavn (East)|EKDK_B|EKDK-E
 EKDK-E|Kobenhavn (East)|EKDK_C|EKDK-E
 EKDK-E|Kobenhavn (East)|EKDK_A|EKDK-E
+EKDK-E|Kobenhavn (East)|EKDK_OE|EKDK-E
 EKDK-W|Kobenhavn (West)|EKDK_V|EKDK-W
 EKDK-W|Kobenhavn (West)|EKDK_N|EKDK-W
 EKDK-W|Kobenhavn (West)|EKDK_L|EKDK-W
@@ -18017,17 +18069,17 @@ ENBD-S|Bodø ACC (South) - Polaris|ENBD_S|ENBD-S
 ENBD-19|Bodø ACC - Polaris|ENBD_19|ENBD-19
 ENOB|Bodo Oceanic||ENOB
 ENOR|Polaris||ENOR
-ENOR-SC|Polaris South-Central|ENOR_SC|ENOR-SC
-ENOR-S|Polaris South|ENOR_S|ENOR-S
+ENOR-SC|Polaris (South-Central)|ENOR_SC|ENOR-SC
+ENOR-S|Polaris (South)|ENOR_S|ENOR-S
 ENOS|Oslo ACC - Polaris||ENOS
 ENOS-1|Oslo ACC (Sector 1) - Polaris|ENOS_1|ENOS-1
 ENOS-4|Oslo ACC (Sector 4) - Polaris|ENOS_4|ENOS-4
 ENOS-8|Oslo ACC (Sector 8) - Polaris|ENOS_8|ENOS-8
-ENRC-N|Bodo RTC North - Polaris|ENRC_N|ENBD
-ENRC-S|Bodo RTC South - Polaris|ENRC_S|ENOR-S
+ENRC-N|Bodo RTC North|ENRC_N|ENBD
+ENRC-S|Bodo RTC South|ENRC_S|ENOR-S
 ENSV|Stavanger ACC - Polaris||ENSV
-ENSV-W|Stavanger West ACC - Polaris|ENSV_W|ENSV-W
-ENSV-E|Stavanger East ACC - Polaris|ENSV_E|ENSV-E
+ENSV-W|Stavanger ACC (West) - Polaris|ENSV_W|ENSV-W
+ENSV-E|Stavanger ACC (East) - Polaris|ENSV_E|ENSV-E
 EPWW|Warszawa|EPWA|EPWW
 EPWW-N|Warszawa|EPWW-N|EPWW
 EPWW-S|Warszawa|EPWW-S|EPWW
@@ -18150,6 +18202,9 @@ LFEE-N|Reims North (Covers North-East LFFF FL295+)||LFEE-N
 LFEE-S|Reims South||LFEE-S
 LFFF|Paris|LFPG|LFFF
 LFMM|Marseille||LFMM
+LFMM-N|Marseille North - FL245||LFMM-N
+LFMM-E|Marseille East FL245+||LFMM-E
+LFMM-S|Marseille South - FL245||LFMM-S
 LFRR|Brest||LFRR
 LFRR-N|Brest North||LFRR-N
 LFRR-E|Brest East (Covers West LFFF FL295+)||LFRR-E
@@ -18211,36 +18266,38 @@ LRBB|Bucharest||LRBB
 LSAS|Swiss Radar - Switzerland||LSAS
 LSAG|Swiss Radar (Geneva ACC) - Switzerland||LSAG
 LSAZ|Swiss Radar (Zurich ACC) - Switzerland||LSAZ
-LTAA|Ankara Control - Ankara|ANK|LTAA
-LTAA-A|Ankara Control - Ankara Central & East|ANK_A|LTAA-A
-LTAA-A|Ankara Control - Ankara Central|ANK_C|LTAA-A
-LTAA-A|Ankara Control - Ankara East|ANK_E|LTAA-A
-LTAA-A|Ankara Control - Ankara North|ANK_N|LTAA-A
-LTAA-A|Ankara Control - Ankara South|ANK_S|LTAA-A
-LTAA-A|Ankara Control - Ankara East North|ANK_EN|LTAA-A
-LTAA-A|Ankara Control - Ankara East South|ANK_ES|LTAA-A
-LTAA-A|Ankara Control - Ankara 7 Sector|ANK_7|LTAA-A
-LTAA-A|Ankara Control - Ankara 8 Sector|ANK_8|LTAA-A
-LTAA-A|Ankara Control - Ankara 9 Sector|ANK_9|LTAA-A
-LTAA-A|Ankara Control - Ankara 10 Sector|ANK_10|LTAA-A
-LTAA-A|Ankara Control - Ankara 11 Sector|ANK_11|LTAA-A
-LTAA-A|Ankara Control - Ankara 12 Sector|ANK_12|LTAA-A
-LTAA-A|Ankara Control - Ankara 13 Sector|ANK_13|LTAA-A
-LTAA-A|Ankara Control - Ankara 14 Sector|ANK_14|LTAA-A
-LTAA-A|Ankara Control - Ankara 15 Sector|ANK_15|LTAA-A
-LTAA-A|Ankara Control - Ankara 16 Sector|ANK_16|LTAA-A
-LTAA-A|Ankara Control - Ankara 17 Sector|ANK_17|LTAA-A
-LTAA-A|Ankara Control - Ankara 18 Sector|ANK_18|LTAA-A
-LTAA-A|Ankara Control - Ankara 19 Sector|ANK_19|LTAA-A
-LTBB|Ankara Control - Istanbul|ANK_W|LTBB
-LTBB|Ankara Control - Istanbul West North|ANK_WN|LTBB
-LTBB|Ankara Control - Istanbul West South|ANK_WS|LTBB
-LTBB|Ankara Control - Ankara 1 Sector|ANK_1|LTBB
-LTBB|Ankara Control - Ankara 2 Sector|ANK_2|LTBB
-LTBB|Ankara Control - Ankara 3 Sector|ANK_3|LTBB
-LTBB|Ankara Control - Ankara 4 Sector|ANK_4|LTBB
-LTBB|Ankara Control - Ankara 5 Sector|ANK_5|LTBB
-LTBB|Ankara Control - Ankara 6 Sector|ANK_6|LTBB
+LTAA|Ankara||LTAA
+LTBB|Istanbul||LTBB
+LTXX|Ankara Control|ANK|LTXX
+LTAA-A|Ankara Central & East|ANK_A|LTAA
+LTAA-C|Ankara Central|ANK_C|LTAA-C
+LTAA-E|Ankara East|ANK_E|LTAA-E
+LTAA-N|Ankara North|ANK_N|LTAA-N
+LTAA-S|Ankara South|ANK_S|LTAA-S
+LTAA-EN|Ankara East North|ANK_EN|LTAA-EN
+LTAA-ES|Ankara East South|ANK_ES|LTAA-ES
+LTBB-W|Ankara West|ANK_W|LTBB
+LTBB-WN|Ankara West North|ANK_WN|LTBB-WN
+LTBB-WS|Ankara West South|ANK_WS|LTBB-WS
+LTBB-1|Ankara (Sector 1)|ANK_1|LTBB-1
+LTBB-2|Ankara (Sector 2)|ANK_2|LTBB-2
+LTBB-3|Ankara (Sector 3)|ANK_3|LTBB-3
+LTBB-4|Ankara (Sector 4)|ANK_4|LTBB-4
+LTBB-5|Ankara (Sector 5)|ANK_5|LTBB-5
+LTBB-6|Ankara (Sector 6)|ANK_6|LTBB-6
+LTAA-7|Ankara (Sector 7)|ANK_7|LTAA-7
+LTAA-8|Ankara (Sector 8)|ANK_8|LTAA-8
+LTAA-9|Ankara (Sector 9)|ANK_9|LTAA-9
+LTAA-10|Ankara (Sector 10)|ANK_10|LTAA-10
+LTAA-11|Ankara (Sector 11)|ANK_11|LTAA-11
+LTAA-12|Ankara (Sector 12)|ANK_12|LTAA-12
+LTAA-13|Ankara (Sector 13)|ANK_13|LTAA-13
+LTAA-14|Ankara (Sector 14)|ANK_14|LTAA-14
+LTAA-15|Ankara (Sector 15)|ANK_15|LTAA-15
+LTAA-16|Ankara (Sector 16)|ANK_16|LTAA-16
+LTAA-17|Ankara (Sector 17)|ANK_17|LTAA-17
+LTAA-18|Ankara (Sector 18)|ANK_18|LTAA-18
+LTAA-19|Ankara (Sector 19)|ANK_19|LTAA-19
 LUUU|Chisinau|LUKK|LUUU
 LWSS|Skopje||LWSS
 LYBA|Beograd||LYBA
@@ -18409,7 +18466,17 @@ UHHH-2|Khabarovsk ACC Sector 2 - Khabarovsk|UHHH_2|UHHH-2
 UHHH-3|Khabarovsk ACC Sector 3 - Khabarovsk|UHHH_3|UHHH-3
 UHHH-HF|Khabarovsk ACC Sector HF - Khabarovsk|UHHH_HF|UHHH-HF
 UHMM|Magadan||UHMM
+UHMM-S|Magadan ACC Sector South - Magadan|UHMM_S|UHMM-S
+UHMM-N|Magadan ACC Sector North - Magadan|UHMM_N|UHMM-N
+UHMM-N1|Magadan ACC Sector North-1 - Magadan|UHMM_N1|UHMM-N1
+UHMM-N2|Magadan ACC Sector North-2 - Magadan|UHMM_N2|UHMM-N2
+UHMM-K1|Magadan ACC Sector Kamchatka - Magadan|UHMM_K1|UHMM-K1
+UHMM-K2|Magadan ACC Sector Kamchatka-1 - Magadan|UHMM_K2|UHMM-K2
+UHMM-O|Magadan ACC Sector Oceanic - Magadan|UHMM_O|UHMM-O
 UIII|Irkutsk||UIII
+UIII-N|Irkutsk ACC Sector North - Irkutsk|UIII_N|UIII-N
+UIII-W|Irkutsk ACC Sector West - Irkutsk|UIII_W|UIII-W
+UIII-E|Irkutsk ACC Sector East - Irkutsk|UIII_E|UIII-E
 UKBV|Kyiv|UKBB|UKBV
 UKFV|Simferopol|UKFF|UKFV
 UKDV|Dnipro||UKDV
@@ -18466,6 +18533,11 @@ UUWV-E|Moscow ACC sector Penza - Moscow|UUWV_E|UUWV-E
 UUWV-SW|Moscow ACC sector South-West - Moscow|UUWV_SW|UUWV-SW
 UUWV-W|Moscow ACC sector West - Moscow|UUWV_W|UUWV-W
 UWWW|Samara||UWWW
+UWWW-N|Samara ACC sector Kazan - Samara|UWWW_N|UWWW-N
+UWWW-SW|Samara ACC sector Saratov - Samara|UWWW_SW|UWWW-SW
+UWWW-SE|Samara ACC sector Orenburg - Samara|UWWW_SE|UWWW-SE
+UWWW-W|Samara ACC sector West - Samara|UWWW_W|UWWW-W
+UWWW-E|Samara ACC samara East - Samara|UWWW_E|UWWW-E
 VAAH|Ahmedabad||VAAH
 VABB|Mumbai ACC - Mumbai||VABB
 VABF|Mumbai||VABF
@@ -18579,57 +18651,57 @@ YWOL|Melbourne (Wollongong) 125.0* (129.8)|ML-WOL|YWOL
 YWON|Melbourne (Wonthaggi) 135.3* (134.325)|ML-WON|YWON
 YWRA|Melbourne (Woomera) 132.9* (128.85)|ML-WRA|YWRA
 YYWE|Melbourne (Yarrowee) 134.325|ML-YWE|YYWE
-ZBPE|Beijing||ZBPE
-ZBAA|Beijing ACC - Beijing||ZBAA
-ZBAA-N|Beijing ACC North High Sector - Beijing|ZBAA_N|ZBAA-N
-ZBAA-S|Beijing ACC South High Sector - Beijing|ZBAA_S|ZBAA-S
-ZBAA-W|Beijing ACC West High Sector - Beijing|ZBAA_W|ZBAA-W
-ZBAA-C|Beijing ACC Central Sector - Beijing|ZBAA_C|ZBAA-C
-ZBHH|Hohhot ACC - Beijing|ZBHH|ZBHH
-ZHCC|Zhengzhou ACC - Wuhan||ZHCC
-ZHHH|Wuhan ACC - Wuhan||ZHHH
-ZHWH|Wuhan||ZHWH
-ZGHA|Changsha ACC - Guangzhou||ZGHA
-ZGNN|Nanning ACC - Guangzhou||ZGNN
-ZGGG|Guangzhou ACC - Guangzhou||ZGGG
-ZGZU|Guangzhou|ZGZU|ZGZU
-ZJSA|Sanya||ZJSA
-ZJSY-L|Sanya ACC Land Sector - Sanya|ZJSY_L|ZJSY-L
-ZJSY-O|Sanya ACC Oceanic Sector - Sanya|ZJSY_O|ZJSY-O
+ZBPE|Beijing FIR - Beijing||ZBPE
+ZBAA|Beijing ACC - Beijing FIR - Beijing||ZBAA
+ZBAA-N|Beijing ACC North High Sector - Beijing FIR - Beijing|ZBAA_N|ZBAA-N
+ZBAA-S|Beijing ACC South High Sector - Beijing FIR - Beijing|ZBAA_S|ZBAA-S
+ZBAA-W|Beijing ACC West High Sector - Beijing FIR - Beijing|ZBAA_W|ZBAA-W
+ZBAA-C|Beijing ACC Central Sector - Beijing FIR - Beijing|ZBAA_C|ZBAA-C
+ZBHH|Hohhot ACC - Beijing FIR - Hohhot||ZBHH
+ZHCC|Zhengzhou ACC - Wuhan FIR - Zhengzhou||ZHCC
+ZHHH|Wuhan ACC - Wuhan FIR - Wuhan||ZHHH
+ZHWH|Wuhan FIR - Wuhan||ZHWH
+ZGHA|Changsha ACC - Guangzhou FIR - Changsha||ZGHA
+ZGNN|Nanning ACC - Guangzhou FIR - Nanning||ZGNN
+ZGGG|Guangzhou ACC - Guangzhou FIR - Guangzhou||ZGGG
+ZGZU|Guangzhou FIR - Guangzhou||ZGZU
+ZJSA|Sanya FIR - Sanya||ZJSA
+ZJSY-L|Sanya ACC Land Sector - Sanya FIR - Sanya|ZJSY_L|ZJSY-L
+ZJSY-O|Sanya ACC Oceanic Sector - Sanya FIR - Sanya|ZJSY_O|ZJSY-O
 ZKKP|Pyongyang||ZKKP
-ZLHW|Lanzhou||ZLHW
-ZLLL|Lanzhou ACC - Lanzhou|ZLLL|ZLLL
-ZLXY|Xi'an ACC - Lanzhou||ZLXY
-ZULS|Lhasa ACC - Kunming||ZULS
-ZPKM|Kunming||ZPKM
-ZSHA|Shanghai|ZSHA|ZSHA
-ZSSS|Shanghai ACC - Shanghai||ZSSS
-ZSSS-N|Shanghai ACC North High Sector - Shanghai|ZSSS_N|ZSSS-N
-ZSSS-S|Shanghai ACC South High Sector - Shanghai|ZSSS_S|ZSSS-S
-ZSSS-W|Shanghai ACC West High Sector - Shanghai|ZSSS_W|ZSSS-W
-ZSSS-C|Shanghai ACC Central High Sector - Shanghai|ZSSS_C|ZSSS-C
-ZSQD|Qingdao ACC - Shanghai||ZSQD
-ZSJN|Jinan ACC - Shanghai||ZSJN
-ZSOF|Hefei ACC - Shanghai||ZSOF
-ZSCN|Nanchang ACC - Shanghai||ZSCN
-ZSAM|Xiamen ACC - Shanghai||ZSAM
-ZUUU|Chengdu ACC - Kunming||ZUUU
-ZUGY|Guiyang ACC - Kunming||ZUGY
-ZPPP|Kunming ACC - Kunming||ZPPP
-ZWUQ|Urumqi|ZWUQ|ZWUQ
-ZWWW-N|Urumqi ACC North Sector- Urumqi|ZWWW_N|ZWWW-N
-ZWWW-S|Urumqi ACC South Sector- Urumqi|ZWWW_S|ZWWW-S
-ZYSH|Shenyang||ZYSH
-ZYTX|Shenyang ACC - Shenyang||ZYTX
-ZYHB|Harbin ACC - Shenyang||ZYHB
-ZYTL|Dalian ACC - Shenyang||ZYTL
-ZMUB|Ulaanbaatar||ZMUB
-ZMUB-A|Ulaanbaatar ACC Altai Sector - Ulaanbaatar|ZMUB_A|ZMUB-A
-ZMUB-B|Ulaanbaatar ACC Bayan Sector - Ulaanbaatar|ZMUB_B|ZMUB-B
-ZMUB-C|Ulaanbaatar ACC Central Sector - Ulaanbaatar|ZMUB_C|ZMUB-C
-ZMUB-D|Ulaanbaatar ACC Dornod Sector - Ulaanbaatar|ZMUB_D|ZMUB-D
-ZMUB-G|Ulaanbaatar ACC Gobi Sector - Ulaanbaatar|ZMUB_G|ZMUB-G
-ZMUB-M|Ulaanbaatar ACC Muren Sector - Ulaanbaatar|ZMUB_M|ZMUB-M
+ZLHW|Lanzhou FIR - Lanzhou||ZLHW
+ZLLL|Lanzhou ACC - Lanzhou FIR - Lanzhou|ZLLL|ZLLL
+ZLXY|Xi'an ACC - Lanzhou FIR - Xi'an||ZLXY
+ZULS|Lhasa ACC - Kunming FIR - Lhasa||ZULS
+ZPKM|Kunming FIR - Kunming||ZPKM
+ZSHA|Shanghai FIR - Shanghai FIR - Shanghai||ZSHA
+ZSSS|Shanghai ACC - Shanghai FIR - Shanghai||ZSSS
+ZSSS-N|Shanghai ACC North High Sector - Shanghai FIR - Shanghai|ZSSS_N|ZSSS-N
+ZSSS-S|Shanghai ACC South High Sector - Shanghai FIR - Shanghai|ZSSS_S|ZSSS-S
+ZSSS-W|Shanghai ACC West High Sector - Shanghai FIR - Shanghai|ZSSS_W|ZSSS-W
+ZSSS-C|Shanghai ACC Central High Sector - Shanghai FIR - Shanghai|ZSSS_C|ZSSS-C
+ZSQD|Qingdao ACC - Shanghai FIR - Qingdao||ZSQD
+ZSJN|Jinan ACC - Shanghai FIR - Jinan||ZSJN
+ZSOF|Hefei ACC - Shanghai FIR - Hefei||ZSOF
+ZSCN|Nanchang ACC - Shanghai FIR - Nanchang||ZSCN
+ZSAM|Xiamen ACC - Shanghai FIR - Xiamen||ZSAM
+ZUUU|Chengdu ACC - Kunming FIR - Chengdu||ZUUU
+ZUGY|Guiyang ACC - Kunming FIR - Guiyang||ZUGY
+ZPPP|Kunming ACC - Kunming FIR - Kunming||ZPPP
+ZWUQ|Urumqi FIR - Urumqi||ZWUQ
+ZWWW-N|Urumqi ACC North Sector- Urumqi FIR - Urumqi|ZWWW_N|ZWWW-N
+ZWWW-S|Urumqi ACC South Sector- Urumqi FIR - Urumqi|ZWWW_S|ZWWW-S
+ZYSH|Shenyang FIR - Shenyang||ZYSH
+ZYTX|Shenyang ACC - Shenyang FIR - Shenyang||ZYTX
+ZYHB|Harbin ACC - Shenyang FIR - Harbin||ZYHB
+ZYTL|Dalian ACC - Shenyang FIR - Dalian||ZYTL
+ZMUB|Ulaanbaatar FIR - Ulaanbaatar||ZMUB
+ZMUB-A|Ulaanbaatar ACC Altai Sector - Ulaanbaatar FIR - Ulaanbaatar|ZMUB_A|ZMUB-A
+ZMUB-B|Ulaanbaatar ACC Bayan Sector - Ulaanbaatar FIR - Ulaanbaatar|ZMUB_B|ZMUB-B
+ZMUB-C|Ulaanbaatar ACC Central Sector - Ulaanbaatar FIR - Ulaanbaatar|ZMUB_C|ZMUB-C
+ZMUB-D|Ulaanbaatar ACC Dornod Sector - Ulaanbaatar FIR - Ulaanbaatar|ZMUB_D|ZMUB-D
+ZMUB-G|Ulaanbaatar ACC Gobi Sector - Ulaanbaatar FIR - Ulaanbaatar|ZMUB_G|ZMUB-G
+ZMUB-M|Ulaanbaatar ACC Muren Sector - Ulaanbaatar FIR - Ulaanbaatar|ZMUB_M|ZMUB-M
 
 [UIRs]
 ADR_U|Adria Radar Upper|LJLA,LDZO,LQSB,LYBA,LWSS,LAAA
